@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans&display=swap');
+
+@import 'bootstrap/bootstrap';
+@import 'variables';
+@import 'mixins';
+// @import 'ionicons.min';
+@import 'animate';
+
+*
+{ box-sizing: border-box;}
+html{
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    background-image: url(../img/bg-hero.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+    min-height: 925px;
+    // text-transform: uppercase;
+}
+
+body{
+    background-color: transparent;
+}
+// header{
+//     padding: 0 50px; // header!
+// }
+
+// main{
+//     overflow: hidden;
+// }
+
+h1 {
+    font-family: $title-font;
+}
+
+.button{
+    border-radius: 5px;
+}

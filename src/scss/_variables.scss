@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'HouseSlant';
+	src: url(../fonts/HouseSlant.eot); 
+	src: url(../fonts/HouseSlant.eot) format('embedded-opentype'),
+        url(../fonts/HouseSlant.woff) format("woff"),   
+        url(../fonts/HouseSlant.woff2) format("wott2");
+}
+
+$title-font: 'HouseSlant', sans-serif;
+// $text-font: 'Raleway', sans-serif;
+// $btn-font: 'Open Sans', sans-serif;
